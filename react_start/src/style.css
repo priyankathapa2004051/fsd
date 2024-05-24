@@ -1,0 +1,28 @@
+/* .togglebtn{
+    background-color: aqua;
+}
+body{
+    background-color: black;
+} */
+.mainFoodCard{
+     border: 2px solid grey;
+     width: 250px;
+      margin: 10px;
+      border-radius: 10px;
+      text-align: center;
+      display: inline-block;
+      transition: all 0.5s;
+}
+.mainFoodCard:hover
+{
+    transform: perspective(800px) translateZ(100px);
+    box-shadow: 0px 0px 20px 2px;;
+}
+.mainFoodCard img
+{
+    width: 250px;
+}
+.Home
+{
+    text-align: center;
+}
